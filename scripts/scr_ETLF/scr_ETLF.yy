@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_ETLF",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_ETLF",
+  "parent":{
+    "name":"CustomFunctions",
+    "path":"folders/MRBMStudio/BeginnerHelp/CustomFunctions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

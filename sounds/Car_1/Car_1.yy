@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Car_1",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":40.946125,
+  "name":"Car_1",
+  "parent":{
+    "name":"sounds",
+    "path":"folders/MRBMStudio/BeginnerHelp/NotRequiredButRecommended/sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Car_1.wav",
+  "type":0,
+  "volume":1.0,
+}

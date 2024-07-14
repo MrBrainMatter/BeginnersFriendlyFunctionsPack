@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"",
+  "%Name":"License",
+  "name":"License",
+  "parent":{
+    "name":"BeginnerHelp",
+    "path":"folders/MRBMStudio/BeginnerHelp.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

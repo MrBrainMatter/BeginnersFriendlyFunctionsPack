@@ -1,0 +1,28 @@
+SHADERS MUST BE PUT IN DRAW EVENT!!!
+
+//RAINBOW EFFECTS!!!!
+{
+YIQ (recommended) sprite should be red, other colors are fine but red works best (BLACK IN WHITE CANT WORK)
+var _shift = pi; // shifting set
+_shift = current_time / 2000; // timer
+shader_set(shdr_YIQ); 
+shader_set_uniform_f(shader_get_uniform(shdr_YIQ, "shift"), -_shift); // setting up the shader 
+draw_self(); // draw
+shader_reset(); // reset to redo processes
+
+HSV sprite should be red, other colors are fine but red works best (BLACK IN WHITE CANT WORK)
+var _shift = pi; // shifting set
+_shift = current_time / 2000; // timer
+shader_set(shdr_HSV); 
+shader_set_uniform_f(shader_get_uniform(shdr_HSV, "shift"), -_shift); // setting up the shader 
+draw_self(); // draw
+shader_reset(); // reset to redo processes
+
+RGB sprite should be red, other colors are fine but red works best (BLACK IN WHITE CANT WORK)
+var _shift = pi; // shifting set
+_shift = current_time / 2000; // timer
+shader_set(shdr_RGB); 
+shader_set_uniform_f(shader_get_uniform(shdr_RGB, "shift"), -_shift); // setting up the shader 
+draw_self(); // draw
+shader_reset(); // reset to redo processes
+}

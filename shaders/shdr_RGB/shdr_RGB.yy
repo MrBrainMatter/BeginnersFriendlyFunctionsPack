@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shdr_RGB",
+  "name":"shdr_RGB",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/MRBMStudio/BeginnerHelp/CustomFunctions/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}
